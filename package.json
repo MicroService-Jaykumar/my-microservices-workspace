@@ -1,0 +1,26 @@
+{
+  "name": "my-microservices-workspace",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "serve-one": "npx nx run microservice-one:start:dev",
+    "serve-two": "npx nx run microservice-two:start:dev",
+    "serve-three": "npx nx run microservice-three:start:dev",
+    "serve-all": "npm-run-all -p serve-one serve-two serve-three",
+    "install-microservice-one": "cd ./microservice-one && npm install",
+    "install-microservice-two": "cd ./microservice-two && npm install",
+    "install-microservice-three": "cd ./microservice-three && npm install",,
+    "install-one-two-three": "npm run install-microservice-one && npm run install-microservice-two && npm run install-microservice-three",
+    "install-all": "find . -name 'package.json' -not -path './node_modules/*' -execdir npm install \\;",
+    "clean": "rm -rf ./**/node_modules && rm -rf node_modules"
+  },
+  "private": true,
+  "devDependencies": {
+    "@nestjs/schematics": "^10.1.1",
+    "@nx/js": "19.1.0",
+    "nx": "19.1.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
