@@ -9,7 +9,7 @@
     "serve-all": "npm-run-all -p serve-one serve-two serve-three",
     "install-microservice-one": "cd ./microservice-one && npm install",
     "install-microservice-two": "cd ./microservice-two && npm install",
-    "install-microservice-three": "cd ./microservice-three && npm install",,
+    "install-microservice-three": "cd ./microservice-three && npm install",
     "install-one-two-three": "npm run install-microservice-one && npm run install-microservice-two && npm run install-microservice-three",
     "install-all": "find . -name 'package.json' -not -path './node_modules/*' -execdir npm install \\;",
     "clean": "rm -rf ./**/node_modules && rm -rf node_modules"
