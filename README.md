@@ -33,7 +33,7 @@
 
   ```
   {
-    "name": "microservice-one",
+    "name": "microservice-one"
   }
   ```
 
