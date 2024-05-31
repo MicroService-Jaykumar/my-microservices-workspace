@@ -9,7 +9,7 @@
 
 # Setup Commands:
 
-- `npm install -g nx`
+- `npm install -g nx@19.1.0`
 - `npx create-nx-workspace@latest my-microservices-workspace`
 
 - Workspace command selections:
