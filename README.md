@@ -68,7 +68,10 @@
     ]
   }
   ```
+- Install necessary dependency to serve project:
+  `npm i npm-run-all`
 - Examples: 
+    - `npm run install-microservice-one && npm run install-microservice-two && npm run install-microservice-three`
     - `npm run clean`
     - `npm run install-all`
     - `npm run serve-one`
