@@ -192,7 +192,7 @@
   `cd libs/logger/src/lib`
 - Create a new file named logger.helper.ts:
   ```
-  // logger.helper.ts
+  // libs/logger/src/lib/logger.ts
   export function logMessage(message: string): void {
     console.log(`[LOG]: ${message}`);
   }
@@ -202,8 +202,8 @@
 
 - Update the index.ts file in the logger library:
   ```
-  // index.ts
-  export * from './logger.helper';
+  // libs/logger/src/index.ts
+  export * from './lib/logger';
   ```
 
 # Step 4: Build the Library
