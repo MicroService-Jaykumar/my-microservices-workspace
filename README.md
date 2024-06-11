@@ -76,6 +76,39 @@
     - `npm run install-all`
     - `npm run serve-one`
     - `npm run serve-all`
+
+# Step 3: Create "tsconfig.base.json"
+
+- Code:
+  ```
+    {
+      "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+          "@myorg/*": ["packages/*"]
+        },
+        "lib": ["es2017", "dom"],
+        "skipLibCheck": true,
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "types": ["node"],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+      },
+      "exclude": ["node_modules", "tmp"]
+    }
+  ```
+- Install NX Node Plugin:
+  `npm install --save-dev @nrwl/node`
+
 # GPT Reference:
 
 - Link: https://chatgpt.com/share/79b5ca30-dafc-4d8f-a621-a142d5b83f14
@@ -148,8 +181,10 @@
 
 - Navigate to your NX workspace root:
   `cd my-microservices-workspace`
+- Install NX Node Plugin
+  `npm install --save-dev @nrwl/node`
 - Generate a new library: This will create a new library named logger in the libs directory.
-  `nx generate @nrwl/node:library logger`
+  `nx g @nrwl/node:library logger --directory libs/logger`
 
 # Step 2: Create the Helper File
 
