@@ -182,7 +182,7 @@
 - Navigate to your NX workspace root:
   `cd my-microservices-workspace`
 - Install NX Node Plugin
-  `npm install --save-dev @nrwl/node`
+  `npm i --save-dev @nrwl/node@19.2.3 @nx/js@19.2.3 nx@19.2.3`
 - Generate a new library: This will create a new library named logger in the libs directory.
   `nx g @nrwl/node:library logger --directory libs/logger`
 
