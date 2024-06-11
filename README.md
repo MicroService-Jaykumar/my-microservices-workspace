@@ -9,7 +9,7 @@
 
 # Setup Commands:
 
-- `npm install -g nx@19.1.0`
+- `npm install -g nx@19.2.3`
 - `npx create-nx-workspace@latest my-microservices-workspace`
 
 - Workspace command selections:
@@ -60,8 +60,8 @@
     "private": true,
     "devDependencies": {
         "@nestjs/schematics": "^10.1.1",
-        "@nx/js": "19.1.0",
-        "nx": "19.1.0"
+        "@nx/js": "19.2.3",
+        "nx": "19.2.3"
     },
     "workspaces": [
         "packages/*"
