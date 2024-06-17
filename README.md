@@ -113,7 +113,7 @@
 
 - Link: https://chatgpt.com/share/79b5ca30-dafc-4d8f-a621-a142d5b83f14
 
-# Step 3: Configure Each Microservice
+# Step 4: Configure Each Microservice (Optional*)
 
 - Navigate to the microservice-one directory:
   `cd microservice-one`
@@ -173,7 +173,7 @@
     export class HelloWorldModule {}
     ```
 
-# Step 4: Repeat for Other Microservices
+# Step 5: Repeat for Other Microservices (Optional*)
 
 ---
 
