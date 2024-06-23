@@ -1,6 +1,4 @@
-# [MyMicroservicesWorkspace](https://github.com/MicroService-Jaykumar/my-microservices-workspace/blob/main/README.md)
-
-# Type A: Monorepo with Common Packages
+# [MyMicroservicesWorkspace | Type A: Monorepo with Common Packages](https://github.com/MicroService-Jaykumar/my-microservices-workspace/blob/main/README.md)
 
 # Current configurations Checks
 
