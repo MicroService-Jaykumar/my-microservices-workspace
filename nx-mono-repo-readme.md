@@ -1,4 +1,6 @@
-# [MyMicroservicesWorkspace | Type A: Monorepo with Common Packages](https://github.com/MicroService-Jaykumar/my-microservices-workspace/blob/main/README.md)
+# [MyMicroservicesWorkspace](https://github.com/MicroService-Jaykumar/my-microservices-workspace/blob/main/README.md)
+
+# Type A: Monorepo with Common Packages
 
 # Setup Commands:
 
