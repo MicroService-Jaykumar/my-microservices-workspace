@@ -1,10 +1,5 @@
 # [MyMicroservicesWorkspace | Type A: Monorepo with Common Packages](https://github.com/MicroService-Jaykumar/my-microservices-workspace/blob/main/README.md)
 
-# Current configurations Checks
-
-- `node -v 20.13.1`
-- `npm -v 10.5.2`
-
 # Setup Commands:
 
 - `npm install -g nx@19.2.3`
