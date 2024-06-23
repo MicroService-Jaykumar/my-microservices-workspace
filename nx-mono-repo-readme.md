@@ -1,5 +1,7 @@
 # [MyMicroservicesWorkspace](https://github.com/MicroService-Jaykumar/my-microservices-workspace/blob/main/README.md)
 
+# Type A: Monorepo with Common Packages
+
 # Current configurations Checks
 
 - `node -v 20.13.1`
