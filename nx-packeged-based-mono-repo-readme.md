@@ -1,9 +1,6 @@
-# [MyMicroservicesWorkspace | Type B: Monorepo with Individual Packages](https://github.com/MicroService-Jaykumar/my-microservices-workspace/blob/main/README.md)
+# [MyMicroservicesWorkspace](https://github.com/MicroService-Jaykumar/my-microservices-workspace/blob/main/README.md)
 
-# Current configurations Checks
-
-- `node -v 20.13.1`
-- `npm -v 10.5.2`
+# Type B: Monorepo with Individual Packages
 
 # Setup Commands:
 
